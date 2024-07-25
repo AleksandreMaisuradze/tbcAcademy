@@ -97,5 +97,54 @@ header {
 
 .text_after_header {
     padding-top: 100px;
+    padding-bottom: 24px;
     font-size: 16px;
+}
+
+/* section_1 */
+
+.section_1 {
+    margin-top: 32px;
+    height: 376px;
+    background-image: url(../images/ze324k50.yq4Become-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.section_1_div {
+    max-width: 540px;
+    padding: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
+.section_1_div_title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.section_1_div_text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: normal;
+}
+
+.section_1_div_button {
+    width: 150px;
+    padding: 16px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(15deg, #001682, #3240e5);
+}
+
+.white {
+    margin-right: 8px;
+    color: #fff;
 }

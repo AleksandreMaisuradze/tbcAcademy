@@ -1,3 +1,19 @@
+
+@media(max-width:600px){
+
+/* section_1  */
+
+.section_1_div {
+    padding-inline: 32px;
+}
+
+.section_1_div_title {
+    font-size: 16px;
+}
+
+}
+
+
 @media(max-width:535px) {
 
     /* header  */
