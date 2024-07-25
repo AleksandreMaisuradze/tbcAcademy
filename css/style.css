@@ -1,0 +1,101 @@
+.container {
+    width: min(100%, 1496px);
+    margin: auto;
+    background-color: #f9fafa;
+    padding-inline: 47px;
+    /* border: 10px solid red; */
+}
+
+/* header  */
+
+header {
+    z-index: 100;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #eef1f1;
+    padding-inline: 47px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TBC_icon {
+    display: none;
+    color: #555f62;
+
+}
+
+#Layer_1 {
+    color: #555f62;
+}
+
+.header_ul {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_li {
+    color: #222;
+    cursor: pointer;
+}
+
+.arrow_div {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.header_right_div {
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+}
+
+.fa-magnifying-glass {
+    font-size: 24px;
+    color: #555f62;
+}
+
+.fa-arrow-right {
+    font-size: 16px;
+    color: #182cc0;
+}
+
+.arrow_text {
+    color: #182cc0;
+    font-weight: 700;
+}
+
+.language_div {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.fa-globe {
+    font-size: 14px;
+    color: #555f62;
+}
+
+.language_text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #555f62;
+}
+
+.fa-xmark,
+.fa-bars {
+    display: none;
+    color: #555f62;
+    font-size: 20px;
+}
+
+.text_after_header {
+    padding-top: 100px;
+    font-size: 16px;
+}

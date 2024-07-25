@@ -1,0 +1,12 @@
+@media(max-width:535px) {
+
+    /* header  */
+
+    #Layer_1 {
+        display: none;
+    }
+
+    .TBC_icon {
+        display: block;
+    }
+}

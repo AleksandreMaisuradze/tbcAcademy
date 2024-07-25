@@ -1,0 +1,13 @@
+@media(max-width:420px) {
+
+/* header */
+
+header {
+    padding-inline: 16px;
+}
+
+.arrow_text {
+    font-size: 14px;
+}
+
+}
