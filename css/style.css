@@ -2,7 +2,7 @@
     width: min(100%, 1496px);
     margin: auto;
     background-color: #f9fafa;
-    padding-inline: 47px;
+    /* padding-inline: 47px; */
     /* border: 10px solid red; */
 }
 
@@ -96,6 +96,7 @@ header {
 }
 
 .text_after_header {
+    margin-inline: 76px;
     padding-top: 100px;
     padding-bottom: 24px;
     font-size: 16px;
@@ -104,6 +105,7 @@ header {
 /* section_1 */
 
 .section_1 {
+    margin-inline: 76px;
     margin-top: 32px;
     height: 376px;
     background-image: url(../images/ze324k50.yq4Become-2.png);
@@ -150,6 +152,7 @@ header {
 }
 
 .text_after_section_1 {
+    margin-inline: 76px;
     padding: 120px 0;
     color: #141719;
     font-size: 36px;
@@ -283,7 +286,7 @@ header {
 /* section_4  */
 
 .section_4 {
-    margin: 32px 0;
+    margin: 32px 76px;
 }
 
 .heading {
@@ -368,4 +371,59 @@ header {
 
 .scroll-button:focus {
     outline: none;
+}
+
+/* section_5  */
+
+.section_5_title_active {
+    display: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #141719;
+}
+
+.section_5_div_active {
+    display: none;
+}
+
+.section_5 {
+    padding: 42px 76px 0 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    z-index: 80;
+}
+
+.section_5_div {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.section_5_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #141719;
+}
+
+.section_5_text {
+    font-size: 16px;
+    color: #555F62;
+}
+
+.section_5_images {
+    height: 380px;
+}
+
+.apps {
+    display: flex;
+    gap: 8px;
+}
+
+.app_button {
+    padding: 16px 32px;
+    border: 1px solid #e1e4e5;
+    border-radius: 4px;
+    background-color: #FFF;
 }
