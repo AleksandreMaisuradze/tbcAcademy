@@ -18,6 +18,19 @@
         width: 280px;
         height: 232px;
     }
+
+    /* section_3  */
+
+    .section_3_wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section_3_div {
+        width: inherit;
+        gap: 32px;
+    }
+
 }
 
 

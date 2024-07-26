@@ -242,3 +242,40 @@ header {
     margin-left: 2px;
     text-decoration: underline;
 }
+
+/* section_3  */
+
+.section_3 {
+    margin: 64px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section_3_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.section_3_div {
+    padding: 40px 48px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 8px;
+}
+
+.number_span {
+    font-size: 44px;
+    font-weight: 700;
+    color: #141719;
+    text-wrap: nowrap;
+}
+
+.text_span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555F62;
+}

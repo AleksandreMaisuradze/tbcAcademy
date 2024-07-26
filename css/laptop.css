@@ -1,3 +1,10 @@
+
+@media(max-width:1140px) {
+    .section_3_div {
+        width: 220px;
+    }
+}
+
 @media(max-width:1075px) {
 
     /* header */
