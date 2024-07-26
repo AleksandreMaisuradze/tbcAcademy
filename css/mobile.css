@@ -10,4 +10,24 @@ header {
     font-size: 14px;
 }
 
+/* section_1  */
+
+.text_after_section_1 {
+    padding: 60px 0;
+    font-size: 24px;
+    line-height: 2rem;
+}
+
+/* section_2  */
+
+.section_2_title {
+    margin-inline: 0;
+    font-size: 18px;
+}
+
+.section_2_main_div {
+    padding-inline: 0;
+}
+
+
 }

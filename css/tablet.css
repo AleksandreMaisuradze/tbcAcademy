@@ -1,15 +1,41 @@
+@media(max-width:765px) {
 
-@media(max-width:600px){
+    /* section_2  */
 
-/* section_1  */
+    .section_2_main_div {
+        overflow-x: scroll;
+    }
 
-.section_1_div {
-    padding-inline: 32px;
+
+    .left_images_div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image_1,
+    .image_2,
+    .image_3 {
+        width: 280px;
+        height: 232px;
+    }
 }
 
-.section_1_div_title {
-    font-size: 16px;
-}
+
+@media(max-width:600px) {
+
+    /* section_1  */
+
+    .section_1_div {
+        padding-inline: 32px;
+    }
+
+    .section_1_div_title {
+        font-size: 16px;
+    }
+
+    .section_1_div_text {
+        line-height: normal;
+    }
 
 }
 
