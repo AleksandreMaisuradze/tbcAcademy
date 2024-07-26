@@ -15,3 +15,19 @@ mark.addEventListener("click", () => {
     menu.classList.remove("show");
 
 });
+
+function left() {
+    const container = document.querySelector('.card_wrapper');
+    container.scrollBy({
+        left: -container.clientWidth / 2, 
+        behavior: 'smooth' 
+    });
+}
+
+function right() {
+    const container = document.querySelector('.card_wrapper');
+    container.scrollBy({
+        left: container.clientWidth / 2, 
+        behavior: 'smooth' 
+    });
+}

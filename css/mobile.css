@@ -29,5 +29,15 @@ header {
     padding-inline: 0;
 }
 
+/* section_4  */
+
+.section_4_title {
+    font-size: 16px;
+}
+
+.section_4_heading_span {
+    font-size: 10px;
+}
+
 
 }
