@@ -69,13 +69,19 @@ header {
 
 }
 
-.fa-arrow-right {
+.fa-arrow-right,
+.fa-arrow-left {
     font-size: 16px;
     color: #182cc0;
     cursor: pointer;
 }
 
 .fa-arrow-right:hover {
+    color: #007aff;
+    transition: .5s linear;
+}
+
+.fa-arrow-left:hover {
     color: #007aff;
     transition: .5s linear;
 }
@@ -406,28 +412,42 @@ header {
 .card_wrapper {
     display: flex;
     gap: 20px;
-    overflow-x: auto;
+    overflow-x: scroll;
     scroll-behavior: smooth;
     padding: 10px 0;
-    flex: 1;
+}
+
+.card_wrapper::-webkit-scrollbar {
+    height: 3px;
+}
+
+.card_wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.card_wrapper::-webkit-scrollbar-thumb {
+    background: #182CC0;
+    border-radius: 8px;
 }
 
 .scroll-button {
-    background-color: #ddd;
+    background-color: transparent;
     border: none;
-    padding: 10px;
+    padding: 2px;
     cursor: pointer;
     z-index: 1;
 }
 
 .left-arrow {
     position: absolute;
-    left: 0;
+    bottom: -10px;
+    right: 30px;
 }
 
 .right-arrow {
     position: absolute;
-    right: 0;
+    bottom: -10px;
+    right: 0px;
 }
 
 .scroll-button:focus {
@@ -520,6 +540,19 @@ header {
     gap: 40px;
     overflow-x: scroll;
 
+}
+
+.section_6_card_wrapper::-webkit-scrollbar {
+    height: 3px;
+}
+
+.section_6_card_wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.section_6_card_wrapper::-webkit-scrollbar-thumb {
+    background: #182CC0;
+    border-radius: 8px;
 }
 
 .card {
