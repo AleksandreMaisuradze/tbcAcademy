@@ -111,6 +111,16 @@
         height: 220px;
     }
 
+    /* section_7  */
+
+    .section_7 {
+        margin-inline: 16px;
+    }
+
+    .section_7_div {
+        padding: 76px 50px;
+    }
+
 }
 
 

@@ -2,7 +2,6 @@
     width: min(100%, 1496px);
     margin: auto;
     background-color: #f9fafa;
-    /* padding-inline: 47px; */
     /* border: 10px solid red; */
 }
 
@@ -146,7 +145,7 @@ header {
     background-image: url(../images/ze324k50.yq4Become-2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 .section_1_div {
@@ -594,4 +593,47 @@ header {
 strong {
     color: black;
     font-weight: bold;
+}
+
+/* section_7  */
+
+.section_7 {
+    margin-inline: 76px;
+    background-image: url(../images/nvmgsymp.3xqprivate\ banker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 360px;
+}
+
+.section_7_div {
+    padding: 76px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_7_title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section_7_text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2rem;
+}
+
+.section_7_button {
+    width: 150px;
+    padding: 16px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(15deg, #001682, #3240e5);
+    cursor: pointer;
 }
