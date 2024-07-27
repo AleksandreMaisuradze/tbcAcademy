@@ -249,9 +249,11 @@ header {
 .image_1:hover {
     scale: 1.01;
 }
+
 .image_2:hover {
     scale: 1.01;
 }
+
 .image_3:hover {
     scale: 1.01;
 }
@@ -483,4 +485,69 @@ header {
 .app_button:hover {
     background-color: #f9fafa;
 
+}
+
+/* section_6  */
+
+.section_6 {
+    padding: 64px 76px;
+}
+
+.section_6_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #141719;
+}
+
+.section_6_wrapper {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_6_card_wrapper {
+    display: flex;
+    gap: 40px;
+    overflow-x: scroll;
+
+}
+
+.card {
+    padding-bottom: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 1px solid #e1e4e5;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 1px 10px 10px rgb(223, 221, 221);
+}
+
+.section_6_image {
+    width: 420px;
+    height: 256px;
+    border-radius: 8px 8px 0 0;
+}
+
+.section_6_card_title {
+    padding-inline: 26px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #141719;
+}
+
+.section_6_card_text {
+    padding-inline: 26px;
+    font-size: 14px;
+    color: #555F62;
+    line-height: 1.5rem;
+}
+
+strong {
+    color: black;
+    font-weight: bold;
 }
