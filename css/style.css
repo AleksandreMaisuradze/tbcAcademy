@@ -300,12 +300,13 @@ header {
 /* section_3  */
 
 .section_3 {
-    margin: 64px 0;
+    padding: 64px 76px;
     display: flex;
     justify-content: center;
 }
 
 .section_3_wrapper {
+    min-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -669,7 +670,7 @@ strong {
     gap: 48px;
     overflow-x: scroll;
     scroll-behavior: smooth;
-    /* scrollbar-width: thin; */
+    /* scrollbar-width: thin; */ 
     /* scrollbar-color: #182CC0 transparent */
 }
 

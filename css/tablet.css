@@ -21,6 +21,10 @@
 
     /* section_3  */
 
+    .section_3 {
+        padding-inline: 76px;
+    }
+
     .section_3_wrapper {
         width: 100%;
         flex-direction: column;
@@ -34,7 +38,7 @@
     /* section_5  */
 
     .section_5 {
-        padding-inline: 16px;
+        padding-inline: 76px;
         flex-direction: column;
         align-items: flex-start;
         gap: 32px;
@@ -148,14 +152,32 @@
 
     /* section_2  */
 
-    .section_2 {
+    .section_2_main_div {
+        padding-inline: 16px;
+    }
+
+
+    .section_2_title {
         margin-inline: 16px;
     }
+
+    /* section_3  */
+
+    .section_3 {
+        padding-inline: 16px;
+    }
+
 
     /* section_4  */
 
     .section_4 {
         margin-inline: 16px;
+    }
+
+    /* section_5  */
+
+    .section_5 {
+        padding-inline: 16px;
     }
 
     /* section_6  */
