@@ -49,5 +49,17 @@
         font-size: 18px;
     }
 
+    /* footer  */
+
+    .footer_title {
+        font-size: 16px;
+    }
+
+    .title_div {
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+    }
+
 
 }
