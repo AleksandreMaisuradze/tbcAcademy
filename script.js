@@ -31,3 +31,19 @@ function right() {
         behavior: 'smooth'
     });
 }
+
+function left1() {
+    const container = document.querySelector('.section_8_div');
+    container.scrollBy({
+        left: -container.clientWidth / 2,
+        behavior: 'smooth'
+    });
+}
+
+function right1() {
+    const container = document.querySelector('.section_8_div');
+    container.scrollBy({
+        left: container.clientWidth / 2,
+        behavior: 'smooth'
+    });
+}

@@ -637,3 +637,98 @@ strong {
     background-image: linear-gradient(15deg, #001682, #3240e5);
     cursor: pointer;
 }
+
+/* section_8 */
+
+.section_8 {
+    padding: 76px;
+}
+
+.section_8_title {
+    margin-bottom: 32px;
+    font-size: 28px;
+    font-weight: 700px;
+    color: #141719;
+}
+
+.section_8_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section_8_div {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    overflow-x: scroll;
+}
+
+.section_8_card {
+    min-width: 312px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.section_8_image1 {
+    width: 118px;
+    height: 52px;
+}
+
+.section_8_image2 {
+    width: 94px;
+    height: 52px;
+}
+
+.section_8_image3 {
+    width: 52px;
+    height: 52px;
+}
+
+.section_8_text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #141719;
+    line-height: 2rem;
+}
+
+.section_8_winner_company {
+    font-size: 14px;
+    color: #555F62;
+}
+
+.section_8_button_left {
+    z-index: 5;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 28px;
+    bottom: -9px;
+}
+
+.section_8_button_right {
+    z-index: 5;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: -9px;
+}
+
+.section_8_div::-webkit-scrollbar {
+    height: 3px;
+}
+
+.section_8_div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.section_8_div::-webkit-scrollbar-thumb {
+    background: #182CC0;
+    border-radius: 8px;
+}
