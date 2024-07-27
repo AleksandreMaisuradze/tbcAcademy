@@ -414,8 +414,8 @@ header {
     overflow-x: scroll;
     scroll-behavior: smooth;
     padding: 10px 0;
-    scrollbar-width: thin;
-    scrollbar-color: #182CC0 transparent
+    /* scrollbar-width: thin; */
+    /* scrollbar-color: #182CC0 transparent */
 }
 
 .card_wrapper::-webkit-scrollbar {
@@ -535,8 +535,8 @@ header {
     align-items: center;
     justify-content: center;
     scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: #182CC0 transparent
+    /* scrollbar-width: thin; */
+    /* scrollbar-color: #182CC0 transparent */
 }
 
 .section_6_card_wrapper {
@@ -669,8 +669,8 @@ strong {
     gap: 48px;
     overflow-x: scroll;
     scroll-behavior: smooth;
-    scrollbar-width: thin;
-    scrollbar-color: #182CC0 transparent
+    /* scrollbar-width: thin; */
+    /* scrollbar-color: #182CC0 transparent */
 }
 
 .section_8_card {
