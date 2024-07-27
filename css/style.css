@@ -374,10 +374,12 @@ header {
 .card0 {
     border: 1px solid #e1e4e5;
     border-radius: 8px;
+    transition: 0.25s linear;
 }
 
 .card0:hover {
     box-shadow: 1px 10px 10px rgb(223, 221, 221);
+    background-color: #fff;
 }
 
 .card_text {
@@ -528,10 +530,12 @@ header {
     border: 1px solid #e1e4e5;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.25s linear;
 }
 
 .card:hover {
     box-shadow: 1px 10px 10px rgb(223, 221, 221);
+    background-color: #fff;
 }
 
 .section_6_image {
