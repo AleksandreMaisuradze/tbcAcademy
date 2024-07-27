@@ -421,7 +421,7 @@ header {
 }
 
 .card_wrapper::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: transparent;
 }
 
 .card_wrapper::-webkit-scrollbar-thumb {
@@ -725,7 +725,7 @@ strong {
 }
 
 .section_8_div::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: transparent;
 }
 
 .section_8_div::-webkit-scrollbar-thumb {
