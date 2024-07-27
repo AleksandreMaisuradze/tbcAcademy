@@ -360,22 +360,28 @@ header {
 }
 
 .section_4_images {
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     cursor: pointer;
     transition: 0.25s linear;
 }
 
-.section_4_images:hover {
-    scale: 1.01;
-}
 
 .text_wrapper {
     display: flex;
     gap: 20px;
 }
 
+.card0 {
+    border: 1px solid #e1e4e5;
+    border-radius: 8px;
+}
+
+.card0:hover {
+    box-shadow: 1px 10px 10px rgb(223, 221, 221);
+}
+
 .card_text {
-    margin: 24px 0;
+    margin: 24px 12px;
     font-size: 12px;
     color: #6F787B;
     font-weight: 700;
@@ -383,6 +389,7 @@ header {
 
 .card_title {
     margin-bottom: 24px;
+    margin-inline: 12px;
     font-size: 16px;
     font-weight: 700;
     color: #141719;
